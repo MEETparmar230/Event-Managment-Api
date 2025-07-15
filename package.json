@@ -1,0 +1,22 @@
+{
+  "name": "event-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEETparmar230/Event-Managment-Api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "meet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEETparmar230/Event-Managment-Api/issues"
+  },
+  "homepage": "https://github.com/MEETparmar230/Event-Managment-Api#readme"
+}
