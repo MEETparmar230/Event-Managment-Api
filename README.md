@@ -25,7 +25,7 @@ A RESTful backend API for managing events and users, built with Node.js, Express
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/event-management-api.git
+git clone https://github.com/MEETparmar230/Event-Managment-Api
 cd event-management-api
 ```
 
