@@ -15,8 +15,7 @@ export async function createEvent(req, res) {
     }
 
     const result = await pool.query(
-        'INSERT INTO events (title, date_time, location, capacity) VALUES ($1, $2, $3, $4) RETURNING id',
-        [title, date_time, location, capacity]
+        'INSERT INTO events (title, date_time, location, capacity) VALUES ($1, $2, $3, $4) RETURNING id',[title, date_time, location, capacity]
     );
 
     res.status(201).json({ eventId: result.rows[0].id });
@@ -39,7 +38,7 @@ export async function singleEvent(req, res) {
 
     res.json({
         event: eventData.rows[0],
-        registered_users: users.rows.map(function(u) { return u.user_id; })
+        registered_users: users.rows.map(function (u) { return u.user_id; })
     });
 }
 
